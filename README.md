@@ -17,3 +17,12 @@
 > fanout模式
 
 <img src = "https://images2017.cnblogs.com/blog/1147891/201711/1147891-20171122151041040-579186474.png" alt="fanout模式">
+
+
+## confirm确认消息
+
+## return消息机制
+<img src = "http://upload-images.jianshu.io/upload_images/9167995-d56e00243d3925e3.png" alt="确认消息">
+
+##消费端自定义监听
+
