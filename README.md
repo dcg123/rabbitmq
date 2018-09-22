@@ -52,17 +52,22 @@ void BasicQos(int prefetchSize,int prefetchCount,boolean global)
 
 
 ## RabbitMQ与Spring AMQP整合
-#### 整合RabbitAdmin [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java) [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitAdmin.md)
+#### 整合RabbitAdmin [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)
+#### [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitAdmin.md)
 
 ## SpringAMQP消息模版组建-RabbitTemplate
-#### 整合RabbitTemplate [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitTemplate.md)
+#### 整合RabbitTemplate [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   
+#### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
+#### [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitTemplate.md)
 
 ## SpringAMQP消息容器-SimpleMessageListenerContainer
-### 消息处理方法，适配器模式（1：默认：默认是有自己的方法名字的：handleMessage 2：我们的队列名称 和 方法名称 也可以进行一一的匹配）  
-### 自定义消息处理方法
-### 整合SimpleMessageListenerContainer [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) [说明](/src/main/java/com/czmec/rabbitmq/Readme/SimpleMessageListenner.md)
-### json格式转换器
-### ext convert
+#### 适配自定义消息处理方法，适配器模式（1：默认：默认是有自己的方法名字的：handleMessage 2：我们的队列名称 和 方法名称 也可以进行一一的匹配）  
+#### 整合SimpleMessageListenerContainer 
+#### [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   
+#### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
+#### [说明](/src/main/java/com/czmec/rabbitmq/Readme/SimpleMessageListenner.md)
+#### json格式转换器
+#### ext convert
 
 
 
