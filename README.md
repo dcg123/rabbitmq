@@ -22,6 +22,7 @@
 ## confirm确认消息
 [代码](/src/main/java/com/czmec/rabbitmq/api/confirm) 
 
+
 ## return消息机制
 [代码](/src/main/java/com/czmec/rabbitmq/api/returnlistener) 
 
@@ -50,6 +51,24 @@ void BasicQos(int prefetchSize,int prefetchCount,boolean global)
 #### RabbitMq支持队列过期时间，从消息入队开始计算，只要超过了消息队列的超时时间配置，那么消息就会自动清楚
 
 
+## RabbitMQ与Spring AMQP整合
+#### 整合RabbitAdmin [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig) 
+[说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitAdmin.md)
+
+## SpringAMQP消息模版组建-RabbitTemplate
+#### 整合RabbitTemplate [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig)   
+[测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests) 
+[说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitTemplate.md)
+
+# SpringAMQP消息容器-SimpleMessageListenerContainer
+## 消息处理方法，适配器模式（1：默认：默认是有自己的方法名字的：handleMessage 2：我们的队列名称 和 方法名称 也可以进行一一的匹配）  
+## 自定义消息处理方法
+#### 整合SimpleMessageListenerContainer [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig)   
+[测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests) 
+[说明](/src/main/java/com/czmec/rabbitmq/Readme/SimpleMessageListenner.md)
+
+## json格式转换器
+## ext convert
 
 
 
