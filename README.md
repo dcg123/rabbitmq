@@ -66,8 +66,10 @@ void BasicQos(int prefetchSize,int prefetchCount,boolean global)
 #### [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   
 #### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
 #### [说明](/src/main/java/com/czmec/rabbitmq/Readme/SimpleMessageListenner.md)
-#### json格式转换器
-#### ext convert
+#### MessageConverter消息转换器（json,java对象,自定义二进制转换）
+#### [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   
+#### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
+#### [说明](/src/main/java/com/czmec/rabbitmq/Readme/MessageConverter.md)
 
 
 
