@@ -55,7 +55,7 @@ void BasicQos(int prefetchSize,int prefetchCount,boolean global)
 #### 整合RabbitAdmin [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)
 #### [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitAdmin.md)
 
-## SpringAMQP消息模版组建-RabbitTemplate
+## SpringAMQP消息模版组建-RabbitTemplate 
 #### 整合RabbitTemplate [代码](/src/main/java/com/czmec/rabbitmq/RabbitMqConfig.java)   
 #### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
 #### [说明](/src/main/java/com/czmec/rabbitmq/Readme/RabbitTemplate.md)
