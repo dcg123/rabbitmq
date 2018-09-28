@@ -71,5 +71,15 @@ void BasicQos(int prefetchSize,int prefetchCount,boolean global)
 #### [测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
 #### [说明](/src/main/java/com/czmec/rabbitmq/Readme/MessageConverter.md)
 
+## RabbitMq与SpringBoot整合
+#### 使用注解，配置文件等进行消息的发送 和消息的解释
+#### [生产者代码](/rabbitmq-springboot-producer)   
+#### [生产者测试代码](/src/test/java/com/czmec/rabbitmq/RabbitmqApiApplicationTests.java) 
+#### [生产者说明](/src/main/java/com/czmec/rabbitmq/Readme/SpringBootProducer.md)
+#### [消费者代码](/rabbitmq-springboot-consumer)   
+#### [消费者说明](/src/main/java/com/czmec/rabbitmq/Readme/SpringBootConsumer.md)
+
+
+
 
 
